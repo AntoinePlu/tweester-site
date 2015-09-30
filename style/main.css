@@ -1,0 +1,87 @@
+html, body {
+	height: 100%;
+	background: #FFF;
+	color:#333;
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* ----------- Layout ----------- */
+
+.content {
+	display: flex;
+}
+
+.content-featured {
+	/*background: #f05841;*/
+	flex: 3 5;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 100;
+	max-width: 400px;
+	color: #39414D;
+	line-height: 44px;
+}
+
+.content-featured p {
+	max-width: 600px;
+	color: #888888;
+	line-height: 24px;
+	font-style: 16px;
+	font-weight: 100;
+
+}
+
+.content-featured-prototype {
+	font-style: 14px;
+	font-weight: 100;
+	color: #DC395F;
+}
+
+.content-secondary {
+	background: #4A90E2;
+	display: flex;
+	flex: 2 5;
+}
+
+.content-secondary img {
+	margin: 50px auto 0;
+}
+
+/* ----------- Buttons ----------- */
+
+
+
+/* Mobile ----------- */
+@media only screen and (min-width : 0px) {
+
+
+	
+
+}
+
+/* Tablet ----------- */
+@media only screen and (min-width : 501px) {
+
+	
+}
+
+/* Old PC ----------- */
+@media only screen and (min-width : 960px) {
+
+	
+}
+
+/* Screen ----------- */
+@media only screen and (min-width : 1280px) {
+
+
+}
