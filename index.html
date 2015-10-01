@@ -12,11 +12,25 @@
 <body>
 	<div class="content">
 		<div class="content-featured">
-			<div>
+			<header>
 				<h1><img src="images/tweester-logo-2.svg" alt="Logo Tweester"></h1>
-				<p>Help needed</p>
+				<a href="#">Help needed</a>
+			</header>
+			<div class="content-featured-illustration">
+				<object type="image/svg+xml" data="images/knowledge-illustration-2.svg" class="illustration-content">
+					Kiwi Logo <!-- fallback image in CSS -->
+				</object>
+				<object type="image/svg+xml" data="images/knowledge-illustration-2.svg" class="illustration-content">
+					Kiwi Logo <!-- fallback image in CSS -->
+				</object>
+				<object type="image/svg+xml" data="images/knowledge-illustration-2.svg" class="illustration-content">
+					Kiwi Logo <!-- fallback image in CSS -->
+				</object>
+				<object type="image/svg+xml" data="images/knowledge-illustration-2.svg" class="illustration-content">
+					Kiwi Logo <!-- fallback image in CSS -->
+				</object>
 			</div>
-			<div>
+			<div class="content-featured-description">
 				<h2>Improve your knowledge by hiding boring things</h2>
 				<p>You can follow the right people, there will always be noise in your timeline.</p>
 				<p>By optimizing what content you don't want to see, relevant information will become the only thing you need.</p>
@@ -26,14 +40,9 @@
 				<a>Take a look at the prototype</a>
 			</div>
 
-			<form action="http://antoineplu.createsend.com/t/t/s/oihliy/" method="post" id="subForm">
-			    <p>
-			        <label for="fieldEmail">Email</label><br />
-			        <input id="fieldEmail" name="cm-oihliy-oihliy" type="email" required placeholder="Notify me when it's ready!"/>
-			    </p>
-			    <p>
-			        <button type="submit">Subscribe</button>
-			    </p>
+			<form action="http://antoineplu.createsend.com/t/t/s/oihliy/" method="post" id="subForm" class="content-featured-subscription">
+				<input id="fieldEmail" name="cm-oihliy-oihliy" type="email" required placeholder="Notify me when it's ready!"/>
+				<button type="submit">Subscribe</button>
 			</form>
 		</div>
 		<div class="content-secondary">
