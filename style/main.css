@@ -16,6 +16,7 @@ html, body {
 
 .content {
 	display: flex;
+	height: 100%;
 }
 
 .content-featured {
@@ -48,6 +49,10 @@ header a {
 	text-decoration: none;
 }
 
+header a:hover {
+	background-color: #F2B230;
+}
+
 h2 {
 	font-size: 32px;
 	font-weight: 100;
@@ -57,7 +62,7 @@ h2 {
 }
 
 .content-featured p {
-	max-width: 600px;
+	max-width: 590px;
 	color: #888888;
 	line-height: 24px;
 	font-style: 16px;
@@ -92,6 +97,20 @@ h2 {
 	font-weight: 100;
 	color: #DC395F;
 	margin-bottom: 50px;
+	display: flex;
+}
+
+.content-featured-prototype a {
+	text-decoration: none;
+	color: #DC395F;
+}
+
+.content-featured-prototype a:hover {
+	text-decoration: underline;
+}
+
+.content-featured-prototype img {
+	margin-right: 10px;
 }
 
 .content-featured-subscription {
@@ -127,6 +146,33 @@ h2 {
   font-weight: 400;
 }
 
+.content-featured-links {
+	display: flex;
+	position: absolute;
+	bottom: 50px;
+	justify-items: center;
+}
+
+.content-featured-links a {
+	text-decoration: none;
+	color: #4A90E2;
+}
+
+.content-featured-links a:hover {
+	text-decoration: underline;
+}
+
+.content-featured-links p {
+	font-size: 14px;
+}
+
+.tw-tweester {
+	background: url('../images/icon-twitter.svg') no-repeat;
+	width: 22px;
+	height: 20px;
+}
+
+
 @keyframes scroll-left {
 	from { left: -253px; }
 	to { left: -800px; }
@@ -142,11 +188,15 @@ h2 {
 	display: flex;
 	flex: 2 5;
 	z-index: 100;
+	max-width: 650px;
+	padding-right: 190px;
 }
 
 .content-secondary img {
-	margin: 50px auto 0;
-	max-width: 375px;
+	margin: 50px 0 0;
+	max-width: 522px;
+	max-height: 672px;
+	bottom: 0;
 }
 
 /* ----------- Buttons ----------- */
